@@ -5,7 +5,8 @@ import { Component2 } from './Component/component2/component2';
 import { Component3 } from './Component/component3/component3';
 import { Component4 } from './Component/component4/component4';
 import { Component5 } from './Component/component5/component5';
-import { Typescrip1 } from './Typescript/typescrip1/typescrip1';
+import { Typescrip1 } from './Typescript/typescrip1/typescript1';
+
 
 
 @Component({
