@@ -16,7 +16,7 @@ import { Capa3 } from './capa3/capa3';
   styleUrl: './app.css'
 })
 export class App {
-   title = 'Ejercicio1_component';
+   title = 'Ejercicios_angular';
 }
 
 
