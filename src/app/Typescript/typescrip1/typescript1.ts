@@ -57,7 +57,6 @@ ejercicioD(): void {let edad: number = 38;
       console.log(`Es menor de edad`);
     }}
   
-    
 ejercicioE(): void {
 let edoPedido: string = "enviado";
 //Bucle para solicitar el estado del envio del pedido.
@@ -93,7 +92,6 @@ ejercicioG(): void {
     }
      console.log(`La suma de los números del 1 al 10 es: ${suma}`);
 }
-
 
 ejercicioH(): void {
 let bodys: string[] = ["face", "hand", "finger", "eyes", "hair"];
