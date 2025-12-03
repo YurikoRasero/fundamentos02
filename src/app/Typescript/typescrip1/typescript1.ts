@@ -132,7 +132,7 @@ ciudades.splice(3, 1);
 
 ejercicioJ(): void {
 let scores: Number[]= [100, 95, 98];
-   console.log(35)
+   console.log(scores)
   }
 
 }
