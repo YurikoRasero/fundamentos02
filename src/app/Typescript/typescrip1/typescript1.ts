@@ -58,16 +58,53 @@ ejercicioD(): void {let edad: number = 38;
     }}
   
     
-ejercicioE(): void {}
+ejercicioE(): void {
+let edoPedido: string = "enviado";
+//Bucle para solicitar el estado del envio del pedido.
+    if (edoPedido === "enviado") {
+      console.log(`Pedido enviado`);
+    } else if (edoPedido === "espera") {
+      console.log(`Pedido en espera`);
+    } else if (edoPedido === "cancelado") {
+      console.log(`Pedido cancelado`);
+    } else {
+      console.log(`Estado del pedido no desconocido`);
+    }
 
-    
-ejercicioF(): void {}
+}
 
-ejercicioG(): void {}
+ejercicioF(): void {
+console.log("Imprimir numeros del 1 al 5:");
+
+    for (let z = 1; z <= 5; z++) {
+      console.log(z);
+    }
+
+}
+
+ejercicioG(): void {
+//Suma de numeros
+  let suma: number = 0;
+  let contador: number = 1;
+
+    while (contador <= 10) {
+      suma += contador;
+      contador++;
+    }
+     console.log(`La suma de los números del 1 al 10 es: ${suma}`);
+}
 
 
-ejercicioH(): void {}
+ejercicioH(): void {
+let bodys: string[] = ["face", "hand", "finger", "eyes", "hair"];
 
+    console.log("Array body:");
+
+    for (let body of bodys) {
+      console.log(body);
+    }
+
+}
 
 ejercicioI(): void {
 
