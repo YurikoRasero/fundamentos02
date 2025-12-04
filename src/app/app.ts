@@ -7,8 +7,8 @@ import { Component4 } from './Component/component4/component4';
 import { Component5 } from './Component/component5/component5';
 import { Typescrip1 } from './Typescript/typescrip1/typescript1';
 import { Interpolacion } from './Binding/interpolacion/interpolacion';
-import { BindingA } from './Binding/binding-a/binding-a';
-
+import { OwbindingA } from './Binding/owbinding-a/owbinding-a';
+import { OwbindingB } from './Binding/owbinding-b/owbinding-b';
 
 
 
@@ -16,7 +16,7 @@ import { BindingA } from './Binding/binding-a/binding-a';
   selector: 'componente-inicial',
   imports: [RouterOutlet,
     Component1, Component2, Component3, Component4, Component5,
-    Typescrip1, Interpolacion,BindingA],
+    Typescrip1, Interpolacion,OwbindingA,OwbindingB],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

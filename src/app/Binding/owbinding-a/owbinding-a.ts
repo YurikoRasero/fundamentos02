@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-binding-a',
+  selector: 'app-owbinding-a',
   imports: [FormsModule],
-  templateUrl: './binding-a.html',
-  styleUrl: './binding-a.css',
+  standalone: true,
+  templateUrl: './owbinding-a.html',
+  styleUrl: './owbinding-a.css',
 })
-export class BindingA {
+export class OwbindingA {
 
   color:string= "negro";
 }
