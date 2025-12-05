@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 
 export class TwbindingDivisa {
 
- cantidad: number = 0;
+  cantidad: number = 0;
   monedaOrigen: string = 'EUR';
   monedaDestino: string = 'USD';
   resultado: number = 0;
