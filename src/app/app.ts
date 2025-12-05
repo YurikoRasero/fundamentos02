@@ -10,9 +10,15 @@ import { Interpolacion } from './Binding/interpolacion/interpolacion';
 import { OwbindingA } from './Binding/owbinding-a/owbinding-a';
 import { OwbindingB } from './Binding/owbinding-b/owbinding-b';
 import { Placeholder } from './Binding/placeholder/placeholder';
+<<<<<<< HEAD
 import { Owbindingc } from './Binding/owbinding-c/owbinding-c';
 import { TwbindingCalc } from './Binding/twbinding-calc/twbinding-calc';
 import { TwbindingDivisa } from './Binding/twbinding-divisa/twbinding-divisa';
+=======
+import { Owbindingc } from './owbinding-c/owbinding-c';
+import { TwbindingCalc } from './twbinding-calc/twbinding-calc';
+import { TwbindingDivisa } from './twbinding-divisa/twbinding-divisa';
+>>>>>>> cf2d1341adafd9e7537d8fb657572ee82825f4b5
 
 
 @Component({

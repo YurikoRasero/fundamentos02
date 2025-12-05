@@ -1,0 +1,30 @@
+<div class="contenedor">
+  <h2>Calculadora de Divisas</h2>
+
+  <div class="grupo">
+    <label>Cantidad:</label>
+    <input type="number" [(ngModel)]="cantidad">
+  </div>
+
+  <div class="grupo">
+    <label>Moneda Origen:</label>
+    <select [(ngModel)]="monedaOrigen">
+      <option value="EUR">Euro (€)</option>
+      <option value="USD">Dólar ($)</option>
+      <option value="GBP">Libra (£)</option>
+    </select>
+  </div>
+
+  <div class="grupo">
+    <label>Moneda Destino:</label>
+    <select [(ngModel)]="monedaDestino">
+      <option value="EUR">Euro (€)</option>
+      <option value="USD">Dólar ($)</option>
+      <option value="GBP">Libra (£)</option>
+    </select>
+  </div>
+
+  <button (click)="convertir()">Convertir</button>
+
+  <h3>Resultado: {{ resultado | number:'1.2-2' }}</h3>
+</div>
