@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-owbinding-b',
   imports: [FormsModule],
   standalone: true,
-  templateUrl: './owbinding-b.html'
+  templateUrl: './owbinding-b.html',
   styleUrl: './owbinding-b.css',
 })
 export class OwbindingB {

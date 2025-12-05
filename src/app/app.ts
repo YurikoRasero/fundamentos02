@@ -9,16 +9,20 @@ import { Typescrip1 } from './Typescript/typescrip1/typescript1';
 import { Interpolacion } from './Binding/interpolacion/interpolacion';
 import { OwbindingA } from './Binding/owbinding-a/owbinding-a';
 import { OwbindingB } from './Binding/owbinding-b/owbinding-b';
-
+import { Placeholder } from './Binding/placeholder/placeholder';
+import { Owbindingc } from './Binding/owbinding-c/owbinding-c';
+import { TwbindingCalc } from './Binding/twbinding-calc/twbinding-calc';
+import { TwbindingDivisa } from './Binding/twbinding-divisa/twbinding-divisa';
 
 
 @Component({
   selector: 'componente-inicial',
-  imports: [RouterOutlet,
-    Component1, Component2, Component3, Component4, Component5,
-    Typescrip1, Interpolacion,OwbindingA,OwbindingB],
+  imports: [RouterOutlet,Component1, Component2, Component3, Component4,
+            Component5,Typescrip1, Interpolacion,OwbindingA,OwbindingB,
+            Placeholder,Owbindingc,TwbindingCalc,TwbindingDivisa],
+
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
    title = 'Ejercicios_angular';
