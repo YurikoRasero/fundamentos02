@@ -10,22 +10,21 @@ import { Interpolacion } from './Binding/interpolacion/interpolacion';
 import { OwbindingA } from './Binding/owbinding-a/owbinding-a';
 import { OwbindingB } from './Binding/owbinding-b/owbinding-b';
 import { Placeholder } from './Binding/placeholder/placeholder';
-<<<<<<< HEAD
 import { Owbindingc } from './Binding/owbinding-c/owbinding-c';
 import { TwbindingCalc } from './Binding/twbinding-calc/twbinding-calc';
 import { TwbindingDivisa } from './Binding/twbinding-divisa/twbinding-divisa';
-=======
-import { Owbindingc } from './owbinding-c/owbinding-c';
-import { TwbindingCalc } from './twbinding-calc/twbinding-calc';
-import { TwbindingDivisa } from './twbinding-divisa/twbinding-divisa';
->>>>>>> cf2d1341adafd9e7537d8fb657572ee82825f4b5
-
+import { StyleD } from './Directivas/style-d/style-d';
+import { ClasesCss } from './Directivas/clases-css/clases-css';
+import { GifD } from './Directivas/gif-d/gif-d';
+import { RolUsuario } from './Directivas/rol-usuario/rol-usuario';
+import { ListaTareas } from './lista-tareas/lista-tareas';
 
 @Component({
   selector: 'componente-inicial',
   imports: [RouterOutlet,Component1, Component2, Component3, Component4,
             Component5,Typescrip1, Interpolacion,OwbindingA,OwbindingB,
-            Placeholder,Owbindingc,TwbindingCalc,TwbindingDivisa],
+            Placeholder,Owbindingc,TwbindingCalc,TwbindingDivisa,StyleD,
+            ClasesCss,GifD,RolUsuario, ListaTareas],
 
   templateUrl: './app.html',
   styleUrl: './app.css',

@@ -1,9 +1,11 @@
+import { DecimalPipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-twbinding-divisa',
-  imports: [FormsModule],
+  imports: [FormsModule, DecimalPipe
+  ],
   templateUrl: './twbinding-divisa.html',
   styleUrl: './twbinding-divisa.css',
 })

@@ -1,0 +1,15 @@
+.caja {
+  padding: 20px;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.active {
+  background-color: rgb(74, 77, 74);
+}
+
+.inactive {
+  background-color: rgba(79, 52, 233, 0.904);
+}

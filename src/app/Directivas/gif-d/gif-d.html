@@ -1,0 +1,10 @@
+
+<button (click)="alternarAuth()">
+  Cambiar autenticación
+</button>
+
+<!-- Si está autenticado -->
+<p *ngIf="estaAutenticado">Bienvenido</p>
+
+<!-- Si NO está autenticado -->
+<p *ngIf="!estaAutenticado">Por favor, inicia sesión</p>

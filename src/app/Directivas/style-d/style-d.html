@@ -1,0 +1,10 @@
+<button (click)="toggleActivo()">
+  Cambiar estado
+</button>
+
+<div
+  [style.background-color]="esActivo ? 'green' : 'red'"
+  style="color: white; padding: 20px; margin-top: 10px;"
+>
+  Estado actual: {{ esActivo }}
+</div>

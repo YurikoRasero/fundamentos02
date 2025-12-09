@@ -1,0 +1,11 @@
+<button (click)="cambiarEstado()">
+  Cambiar estado
+</button>
+
+<div
+  class="caja"
+  [class.active]="status === 'activo'"
+  [class.inactive]="status === 'inactivo'"
+>
+  Estado actual: {{ status }}
+</div>
